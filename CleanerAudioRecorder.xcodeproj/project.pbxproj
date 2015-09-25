@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C2735DE1BB5B65C0007D9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2735DD1BB5B65C0007D9B1 /* AppDelegate.swift */; };
+		1C2735E01BB5B65C0007D9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C2735DF1BB5B65C0007D9B1 /* Assets.xcassets */; };
+		1C2735E31BB5B65C0007D9B1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C2735E11BB5B65C0007D9B1 /* MainMenu.xib */; };
+		1C2735EE1BB5B65D0007D9B1 /* CleanerAudioRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2735ED1BB5B65D0007D9B1 /* CleanerAudioRecorderTests.swift */; };
+		1C2735F91BB5B65D0007D9B1 /* CleanerAudioRecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2735F81BB5B65D0007D9B1 /* CleanerAudioRecorderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C2735EA1BB5B65D0007D9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C2735D21BB5B65C0007D9B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C2735D91BB5B65C0007D9B1;
+			remoteInfo = CleanerAudioRecorder;
+		};
+		1C2735F51BB5B65D0007D9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C2735D21BB5B65C0007D9B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C2735D91BB5B65C0007D9B1;
+			remoteInfo = CleanerAudioRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C2735DA1BB5B65C0007D9B1 /* CleanerAudioRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanerAudioRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C2735DD1BB5B65C0007D9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C2735DF1BB5B65C0007D9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C2735E21BB5B65C0007D9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1C2735E41BB5B65C0007D9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C2735E91BB5B65D0007D9B1 /* CleanerAudioRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanerAudioRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C2735ED1BB5B65D0007D9B1 /* CleanerAudioRecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerAudioRecorderTests.swift; sourceTree = "<group>"; };
+		1C2735EF1BB5B65D0007D9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C2735F41BB5B65D0007D9B1 /* CleanerAudioRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanerAudioRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C2735F81BB5B65D0007D9B1 /* CleanerAudioRecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerAudioRecorderUITests.swift; sourceTree = "<group>"; };
+		1C2735FA1BB5B65D0007D9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C2735D71BB5B65C0007D9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2735E61BB5B65D0007D9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2735F11BB5B65D0007D9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C2735D11BB5B65C0007D9B1 = {
+			isa = PBXGroup;
+			children = (
+				1C2735DC1BB5B65C0007D9B1 /* CleanerAudioRecorder */,
+				1C2735EC1BB5B65D0007D9B1 /* CleanerAudioRecorderTests */,
+				1C2735F71BB5B65D0007D9B1 /* CleanerAudioRecorderUITests */,
+				1C2735DB1BB5B65C0007D9B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C2735DB1BB5B65C0007D9B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C2735DA1BB5B65C0007D9B1 /* CleanerAudioRecorder.app */,
+				1C2735E91BB5B65D0007D9B1 /* CleanerAudioRecorderTests.xctest */,
+				1C2735F41BB5B65D0007D9B1 /* CleanerAudioRecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C2735DC1BB5B65C0007D9B1 /* CleanerAudioRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				1C2735DD1BB5B65C0007D9B1 /* AppDelegate.swift */,
+				1C2735DF1BB5B65C0007D9B1 /* Assets.xcassets */,
+				1C2735E11BB5B65C0007D9B1 /* MainMenu.xib */,
+				1C2735E41BB5B65C0007D9B1 /* Info.plist */,
+			);
+			path = CleanerAudioRecorder;
+			sourceTree = "<group>";
+		};
+		1C2735EC1BB5B65D0007D9B1 /* CleanerAudioRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C2735ED1BB5B65D0007D9B1 /* CleanerAudioRecorderTests.swift */,
+				1C2735EF1BB5B65D0007D9B1 /* Info.plist */,
+			);
+			path = CleanerAudioRecorderTests;
+			sourceTree = "<group>";
+		};
+		1C2735F71BB5B65D0007D9B1 /* CleanerAudioRecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C2735F81BB5B65D0007D9B1 /* CleanerAudioRecorderUITests.swift */,
+				1C2735FA1BB5B65D0007D9B1 /* Info.plist */,
+			);
+			path = CleanerAudioRecorderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C2735D91BB5B65C0007D9B1 /* CleanerAudioRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C2735FD1BB5B65D0007D9B1 /* Build configuration list for PBXNativeTarget "CleanerAudioRecorder" */;
+			buildPhases = (
+				1C2735D61BB5B65C0007D9B1 /* Sources */,
+				1C2735D71BB5B65C0007D9B1 /* Frameworks */,
+				1C2735D81BB5B65C0007D9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleanerAudioRecorder;
+			productName = CleanerAudioRecorder;
+			productReference = 1C2735DA1BB5B65C0007D9B1 /* CleanerAudioRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C2735E81BB5B65D0007D9B1 /* CleanerAudioRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C2736001BB5B65D0007D9B1 /* Build configuration list for PBXNativeTarget "CleanerAudioRecorderTests" */;
+			buildPhases = (
+				1C2735E51BB5B65D0007D9B1 /* Sources */,
+				1C2735E61BB5B65D0007D9B1 /* Frameworks */,
+				1C2735E71BB5B65D0007D9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C2735EB1BB5B65D0007D9B1 /* PBXTargetDependency */,
+			);
+			name = CleanerAudioRecorderTests;
+			productName = CleanerAudioRecorderTests;
+			productReference = 1C2735E91BB5B65D0007D9B1 /* CleanerAudioRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C2735F31BB5B65D0007D9B1 /* CleanerAudioRecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C2736031BB5B65D0007D9B1 /* Build configuration list for PBXNativeTarget "CleanerAudioRecorderUITests" */;
+			buildPhases = (
+				1C2735F01BB5B65D0007D9B1 /* Sources */,
+				1C2735F11BB5B65D0007D9B1 /* Frameworks */,
+				1C2735F21BB5B65D0007D9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C2735F61BB5B65D0007D9B1 /* PBXTargetDependency */,
+			);
+			name = CleanerAudioRecorderUITests;
+			productName = CleanerAudioRecorderUITests;
+			productReference = 1C2735F41BB5B65D0007D9B1 /* CleanerAudioRecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C2735D21BB5B65C0007D9B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Sam Lobel";
+				TargetAttributes = {
+					1C2735D91BB5B65C0007D9B1 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1C2735E81BB5B65D0007D9B1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1C2735D91BB5B65C0007D9B1;
+					};
+					1C2735F31BB5B65D0007D9B1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1C2735D91BB5B65C0007D9B1;
+					};
+				};
+			};
+			buildConfigurationList = 1C2735D51BB5B65C0007D9B1 /* Build configuration list for PBXProject "CleanerAudioRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C2735D11BB5B65C0007D9B1;
+			productRefGroup = 1C2735DB1BB5B65C0007D9B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C2735D91BB5B65C0007D9B1 /* CleanerAudioRecorder */,
+				1C2735E81BB5B65D0007D9B1 /* CleanerAudioRecorderTests */,
+				1C2735F31BB5B65D0007D9B1 /* CleanerAudioRecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C2735D81BB5B65C0007D9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2735E01BB5B65C0007D9B1 /* Assets.xcassets in Resources */,
+				1C2735E31BB5B65C0007D9B1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2735E71BB5B65D0007D9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2735F21BB5B65D0007D9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C2735D61BB5B65C0007D9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2735DE1BB5B65C0007D9B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2735E51BB5B65D0007D9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2735EE1BB5B65D0007D9B1 /* CleanerAudioRecorderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2735F01BB5B65D0007D9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2735F91BB5B65D0007D9B1 /* CleanerAudioRecorderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C2735EB1BB5B65D0007D9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C2735D91BB5B65C0007D9B1 /* CleanerAudioRecorder */;
+			targetProxy = 1C2735EA1BB5B65D0007D9B1 /* PBXContainerItemProxy */;
+		};
+		1C2735F61BB5B65D0007D9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C2735D91BB5B65C0007D9B1 /* CleanerAudioRecorder */;
+			targetProxy = 1C2735F51BB5B65D0007D9B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C2735E11BB5B65C0007D9B1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C2735E21BB5B65C0007D9B1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C2735FB1BB5B65D0007D9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C2735FC1BB5B65D0007D9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1C2735FE1BB5B65D0007D9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CleanerAudioRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SamLobel.CleanerAudioRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C2735FF1BB5B65D0007D9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CleanerAudioRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SamLobel.CleanerAudioRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1C2736011BB5B65D0007D9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CleanerAudioRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SamLobel.CleanerAudioRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanerAudioRecorder.app/Contents/MacOS/CleanerAudioRecorder";
+			};
+			name = Debug;
+		};
+		1C2736021BB5B65D0007D9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CleanerAudioRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SamLobel.CleanerAudioRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanerAudioRecorder.app/Contents/MacOS/CleanerAudioRecorder";
+			};
+			name = Release;
+		};
+		1C2736041BB5B65D0007D9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CleanerAudioRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SamLobel.CleanerAudioRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CleanerAudioRecorder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1C2736051BB5B65D0007D9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CleanerAudioRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SamLobel.CleanerAudioRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CleanerAudioRecorder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C2735D51BB5B65C0007D9B1 /* Build configuration list for PBXProject "CleanerAudioRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2735FB1BB5B65D0007D9B1 /* Debug */,
+				1C2735FC1BB5B65D0007D9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C2735FD1BB5B65D0007D9B1 /* Build configuration list for PBXNativeTarget "CleanerAudioRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2735FE1BB5B65D0007D9B1 /* Debug */,
+				1C2735FF1BB5B65D0007D9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C2736001BB5B65D0007D9B1 /* Build configuration list for PBXNativeTarget "CleanerAudioRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2736011BB5B65D0007D9B1 /* Debug */,
+				1C2736021BB5B65D0007D9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C2736031BB5B65D0007D9B1 /* Build configuration list for PBXNativeTarget "CleanerAudioRecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2736041BB5B65D0007D9B1 /* Debug */,
+				1C2736051BB5B65D0007D9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C2735D21BB5B65C0007D9B1 /* Project object */;
+}
